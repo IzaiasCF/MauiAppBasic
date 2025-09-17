@@ -1,6 +1,6 @@
 ﻿namespace MauiAppBasic
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : TabbedPage
     {
         //Inserindo nome
         string nome = "";

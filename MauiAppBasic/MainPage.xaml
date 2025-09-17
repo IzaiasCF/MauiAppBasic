@@ -1,27 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
+<TabbedPage
     x:Class="MauiAppBasic.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="Meu Primeiro APP"
-    Background="DarkBlue">
+    SelectedTabColor="Black"
+    UnselectedTabColor="LightGray"
+    BarBackground="Magenta">
 
-    <ScrollView>
+    <ContentPage
+        Title="Grid"
+        IconImageSource="dotnet_bot.png">
 
-        <VerticalStackLayout Margin="15">
+        <ScrollView>
 
-            <Label Text="Este é meu primeiro App"
-                   TextColor="WhiteSmoke"
+            <VerticalStackLayout Margin="15">
+
+                <Label Text="Página de Grid"
+                   TextColor="White"
                    FontSize="20"
                    HorizontalOptions="Center"
-                   Padding="15" />
+                   Padding="15"
+                   BackgroundColor="Blue" />
 
-            <Button Text="Avance"
-                  HorizontalOptions="Center" 
-                  Clicked="Button_Clicked" />
+             </VerticalStackLayout>
 
-        </VerticalStackLayout>
-        
-    </ScrollView>
+        </ScrollView>
 
-</ContentPage>
+    </ContentPage>
+
+    <ContentPage
+        Title="Navegação"
+        IconImageSource="dotnet_bot.png">
+
+        <ScrollView>
+
+            <VerticalStackLayout Margin="15">
+
+                <Label Text="Página de Navegação"
+                   TextColor="White"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   Padding="15"
+                   BackgroundColor="Blue" />
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </ContentPage>
+
+</TabbedPage>
