@@ -16,7 +16,7 @@
                    HorizontalOptions="Center"
                    Padding="15" />
 
-            <Button Text="Olá!"
+            <Button Text="Avance"
                   HorizontalOptions="Center" 
                   Clicked="Button_Clicked" />
 

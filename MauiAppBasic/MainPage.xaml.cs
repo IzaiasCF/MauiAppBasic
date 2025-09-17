@@ -2,6 +2,9 @@
 {
     public partial class MainPage : ContentPage
     {
+        //Inserindo nome
+        string nome = "";
+
         public MainPage()
         {
             InitializeComponent();
@@ -11,8 +14,9 @@
         {
             try
             {
+                nome = await DisplayPromptAsync("Olá!" , "Digite seu nome: ");
                 //Criando um simples botão
-                await DisplayAlert("Aviso!", "Olá, mundo!", "Ok");
+                await DisplayAlert("", "Olá, " + nome + "!" , "Ok");
             }
             catch (Exception ex)
             {
