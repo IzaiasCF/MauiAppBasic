@@ -14,9 +14,11 @@
                    TextColor="WhiteSmoke"
                    FontSize="20"
                    HorizontalOptions="Center"
-                   Padding="10" />
+                   Padding="15" />
 
-            <Button Text="Olá!" />
+            <Button Text="Olá!"
+                  HorizontalOptions="Center" 
+                  Clicked="Button_Clicked" />
 
         </VerticalStackLayout>
         
