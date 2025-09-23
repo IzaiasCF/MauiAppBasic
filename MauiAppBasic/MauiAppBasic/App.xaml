@@ -1,14 +1,41 @@
-﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiAppBasic"
              x:Class="MauiAppBasic.App">
+
     <Application.Resources>
+
         <ResourceDictionary>
+
+            <!-- Cor principal igual à da imagem -->
+            <Color x:Key="CorPrincipal">blue</Color>
+
+            <!-- Estilo global para todas as ContentPages -->
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource CorPrincipal}" />
+            </Style>
+
+            <!-- Estilo global para a barra de navegação -->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource CorPrincipal}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <!-- Se estiver usando Shell -->
+            <Style TargetType="Shell">
+                <Setter Property="BackgroundColor" Value="{StaticResource CorPrincipal}" />
+                <Setter Property="TitleColor" Value="White" />
+            </Style>
+
+            <!-- Continua mesclando seus dicionários -->
+            <!--
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary.MergedDictionaries>-->
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
+    
