@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppCombustivel", "MauiAppCombustivel\MauiAppCombustivel.csproj", "{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppCombustivel", "MauiAppCombustivel\MauiAppCombustivel.csproj", "{06E725DA-F170-4848-9E4B-FAAD990E7F10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2B91CEA-BDEC-4621-A706-4C7D56DBB8E2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{06E725DA-F170-4848-9E4B-FAAD990E7F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E725DA-F170-4848-9E4B-FAAD990E7F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E725DA-F170-4848-9E4B-FAAD990E7F10}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{06E725DA-F170-4848-9E4B-FAAD990E7F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E725DA-F170-4848-9E4B-FAAD990E7F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E725DA-F170-4848-9E4B-FAAD990E7F10}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B69377D6-2915-4DCD-A828-57C23503B7EC}
+		SolutionGuid = {32736803-8573-417D-A775-BE5B191F67F6}
 	EndGlobalSection
 EndGlobal
